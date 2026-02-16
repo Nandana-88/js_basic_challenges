@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Basketball Scoreboard</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <div class="scoreboard">
+
+    <!-- TIMER -->
+    <div class="timer">
+      01:00
+    </div>
+
+    <!-- TEAMS -->
+    <div class="teams">
+      <div class="team">
+        <h2>HOME</h2>
+        <div class="score">0</div>
+        <div class="buttons">
+          <button onclick="increment_score('home',1)">+1</button>
+          <button onclick="increment_score('home',2)">+2</button>
+          <button onclick="increment_score('home',3)">+3</button>
+        </div>
+      </div>
+
+      <div class="team">
+        <h2>GUEST</h2>
+        <div class="score">0</div>
+        <div class="buttons">
+          <button onclick="increment_score('guest',1)">+1</button>
+          <button onclick="increment_score('guest',2)">+2</button>
+          <button onclick="increment_score('guest',3)">+3</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEW GAME -->
+
+    <button class="start-btn" onclick="start_timer()">START</button>
+    <button class="new-game-btn" onclick="reset_scores()">NEW GAME</button>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN CARD */
+.scoreboard {
+  background: #1e2a55;
+  padding: 40px 60px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* TIMER */
+.timer {
+  background: black;
+  color: #4ade80;
+  font-size: 36px;
+  padding: 10px 25px;
+  border-radius: 6px;
+  border: 2px solid white;
+  letter-spacing: 3px;
+}
+
+/* TEAMS */
+.teams {
+  display: flex;
+  gap: 100px;
+}
+
+.team {
+  text-align: center;
+}
+
+.team h2 {
+  color: #e5e7eb;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* SCORE */
+.score {
+  background: black;
+  color: #ff4d4d;
+  font-size: 64px;
+  padding: 20px 30px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.buttons button {
+  background: transparent;
+  border: 1.5px solid #9ca3af;
+  color: #9ca3af;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #9ca3af;
+  color: #1e2a55;
+}
+
+/* NEW GAME */
+.new-game-btn {
+  width: 260px;
+  padding: 10px 0;
+  background: transparent;
+  border: 2px solid #9ca3af;
+  color: #e5e7eb;
+  letter-spacing: 3px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.new-game-btn:hover {
+  background: #9ca3af;
+  color: #1e2a55;
+}
+.start-btn {
+  width: 260px;
+  padding: 10px 0;
+  background: transparent;
+  border: 2px solid #9ca3af;
+  color: #e5e7eb;
+  letter-spacing: 3px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background: #9ca3af;
+  color: #1e2a55;
+}
