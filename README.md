@@ -1,38 +1,53 @@
-JavaScript Basic Challenges 🏀
+JavaScript Basic Challenges
 
-This repository contains multiple branches, and
-each branch focuses on a different JavaScript problem.
+This repository contains a collection of JavaScript practice problems organized using separate branches.
+Each branch represents an independent challenge, allowing focused development and clear version control.
 
-📌 Branch Structure
+Repository Structure
 
-Every branch = one specific challenge
+One branch = one problem
 
-Helps keep code organized and easy to understand
+Each branch is self-contained and demonstrates a specific JavaScript concept or use case
 
-🥇 First Challenge
+This structure makes it easy to navigate, test, and review individual solutions
 
-Basketball Score Challenge
+Current Challenges
+1. Basketball Game Challenge
 
-Covers:
+This branch implements a simple basketball game using JavaScript.
+
+Concepts covered:
 
 DOM manipulation
 
 Event handling
 
-Score increment logic
+Game state management
 
-Countdown timer
+Countdown timer logic
 
 Game reset functionality
 
-🎯 Goal
+Purpose
 
-To practice JavaScript fundamentals by solving small, focused problems—one branch at a time.
+The goal of this repository is to strengthen JavaScript fundamentals through small, practical challenges while maintaining clean project organization using Git branches.
 
-🚀 How to use
+Usage
 
-Clone the repo
+Clone the repository:
 
-Switch branches to explore different challenges:
+git clone https://github.com/Nandana-88/js_basic_challenges.git
 
-git checkout branch-name
+
+Navigate into the project directory:
+
+cd js_basic_challenges
+
+
+Switch to a specific challenge branch:
+
+git checkout <branch-name>
+
+Future Work
+
+Additional JavaScript challenges will be added as new branches over time.
