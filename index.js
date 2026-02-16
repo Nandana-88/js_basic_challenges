@@ -38,6 +38,7 @@ function start_timer(){
       announce_winner()
       window.alert("Click New Game to reset the game.")
       clearInterval(interval)
+      timer.textContent="00:60"
 
     }
   }, 1000)
