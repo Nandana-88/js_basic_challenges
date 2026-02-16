@@ -38,7 +38,7 @@ function start_timer(){
       announce_winner()
       window.alert("Click New Game to reset the game.")
       clearInterval(interval)
-      timer.textContent="00:60"
+      timer.textContent="01:00"
 
     }
   }, 1000)
@@ -49,8 +49,8 @@ function reset_scores(){
     home_score.textContent=0
     guest_score.textContent=0
     time=60
-    timer.textContent="00:60"
+    timer.textContent="01:00"
     window.alert("Click START to play.")
 }
-
+window.alert("Click START")
 
